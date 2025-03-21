@@ -363,7 +363,7 @@
             loadComments(page);
         }
         
-        // ✅ Call the function after DOM loads
+        // Call the function after DOM loads
         document.addEventListener("DOMContentLoaded", function () {
             loadComments();
         });
